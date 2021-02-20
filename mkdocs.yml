@@ -1,0 +1,22 @@
+site_name: TV
+site_description: Dyalog Webinars, User Meeting Presentations and Other Videos
+# docs_dir: docs/
+# repo_name: 'rikedyp/DyalogTV'
+# repo_url: 'https://github.com/rikedyp/DyalogTV'
+plugins:
+  - search
+  - awesome-pages
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    primary: white
+  favicon: 'img/DTV.png'
+  logo: 'img/dyalog.svg'
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.sections
+    # - toc.integrate
+extra_css:
+  - style/main.css  
